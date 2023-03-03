@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+input {
+    caret-color: rgb(32, 128, 188);
+}
+
+.brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: rgb(32, 128, 188);
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.img {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    font-family: poppins;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 40px 40px 20px 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    overflow: auto;
+}
+
+select {
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -2px -2px 2px white;
+}
+
+#length{
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+}
+
+.from {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.to {
+    width: 50%;
+}
+
+h2 {
+    font-family: Inter;
+}
+
+.data {
+    padding-bottom: 10px;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#inputlength,#inputtemp,#inputmass,#inputspeed,#inputarea {
+    padding-top: 40px;
+}
